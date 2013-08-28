@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/484/trunk/ppk/test
+END
+xntest.js
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/484/trunk/ppk/test/xntest.js
+END
+nativerangetests.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/484/trunk/ppk/test/nativerangetests.js
+END
+nativedomrange.html
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/484/trunk/ppk/test/nativedomrange.html
+END
+rangetestutils.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/484/trunk/ppk/test/rangetestutils.js
+END
+tests.css
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/484/trunk/ppk/test/tests.css
+END
+rangetests.js
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/484/trunk/ppk/test/rangetests.js
+END

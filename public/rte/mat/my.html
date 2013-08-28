@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>jquery-textrange</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!--<script src="jquery-textrange.js"></script>-->
+</head>
+<body>
+
+<h1>MARKDOWN DATA</h1>
+<div id="markdown-data" name="markdown-data" contenteditable="true">
+    Some more content.
+    Isn't this **cool**?
+    This time with a few lines of content.
+    Yaaay.
+</div>
+
+
+
+<h1>HTML</h1>
+<div id="html-preview" name="html-preview" contenteditable="true">
+    Some more content.
+    Isn't this <b>cool</b>?
+    This time with a few lines of content.
+    Yaaay.
+</div>
+
+
+
+
+<script>
+    $(document).ready(function() {
+        $(document).on('click', '#toggle-bold', function(){
+
+        })
+
+        $(document).on('mousedown mousemove', '#html-preview', function(){
+
+            //console.log('down',window.getSelection())
+
+        })
+
+//        if(!window.Kolich){
+//            Kolich = {};
+//        }
+//
+//        Kolich.Selector = {};
+//        // getSelected() was borrowed from CodeToad at
+//        // http://www.codetoad.com/javascript_get_selected_text.asp
+//        Kolich.Selector.getSelected = function(){
+//            var t = '';
+//            if(window.getSelection){
+//                t = window.getSelection();
+//            }else if(document.getSelection){
+//                t = document.getSelection();
+//            }else if(document.selection){
+//                t = document.selection.createRange().text;
+//            }
+//            return t;
+//        }
+//
+//        Kolich.Selector.mouseup = function(){
+//            var st = Kolich.Selector.getSelected();
+//            if(st!=''){
+//                //alert("You selected:\n"+st);
+//                console.log(st);
+//            }
+//        }
+//
+//        $(document).ready(function(){
+//            $(document).bind("mouseup", Kolich.Selector.mouseup);
+//        });
+
+        function getSelectionText() {
+            var text = "";
+            if (window.getSelection) {
+                console.log(window.getSelection())
+                text = window.getSelection().toString();
+
+            } else if (document.selection && document.selection.type != "Control") {
+                text = document.selection.createRange().htmlText;
+            }
+            return text;
+        }
+
+        $('div,pre').mouseup(function (e){
+            getSelectionText()
+           // alert(getSelectionText())
+        })
+
+
+    });
+</script>
+
+
+
+
+
+</body>
+</html>

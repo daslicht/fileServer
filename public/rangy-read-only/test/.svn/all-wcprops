@@ -1,0 +1,377 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/788/trunk/test
+END
+mylib.html
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/179/trunk/test/mylib.html
+END
+classappliertests.js
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/788/trunk/test/classappliertests.js
+END
+featuretests.html
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/663/trunk/test/featuretests.html
+END
+rangetests.html
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/647/trunk/test/rangetests.html
+END
+bold.html
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/179/trunk/test/bold.html
+END
+mylib_ranges.js
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/179/trunk/test/mylib_ranges.js
+END
+saverestore2.html
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/198/trunk/test/saverestore2.html
+END
+mylib.js
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/179/trunk/test/mylib.js
+END
+textranges.html
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/179/trunk/test/textranges.html
+END
+featuretests.js
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/663/trunk/test/featuretests.js
+END
+ie9.html
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/179/trunk/test/ie9.html
+END
+textinputs_jquery.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/179/trunk/test/textinputs_jquery.html
+END
+rangetests.js
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/774/trunk/test/rangetests.js
+END
+domrange.html
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/257/trunk/test/domrange.html
+END
+xntest.js
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/732/trunk/test/xntest.js
+END
+textareatests.html
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/179/trunk/test/textareatests.html
+END
+commandtests.html
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/451/trunk/test/commandtests.html
+END
+textrangeperformancetests.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/659/trunk/test/textrangeperformancetests.html
+END
+selectiontests.html
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/666/trunk/test/selectiontests.html
+END
+textareatests.js
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/179/trunk/test/textareatests.js
+END
+commandtests.js
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/451/trunk/test/commandtests.js
+END
+removerange.html
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/179/trunk/test/removerange.html
+END
+domtests.js
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/288/trunk/test/domtests.js
+END
+commandnewtests.html
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/486/trunk/test/commandnewtests.html
+END
+textrangeperformancetests.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/661/trunk/test/textrangeperformancetests.js
+END
+controlrange2.html
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/179/trunk/test/controlrange2.html
+END
+selectiontests.js
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/774/trunk/test/selectiontests.js
+END
+highlightertests.html
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/784/trunk/test/highlightertests.html
+END
+buildtests.html
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/435/trunk/test/buildtests.html
+END
+classapplier.html
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/784/trunk/test/classapplier.html
+END
+textrangeperformance.html
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/747/trunk/test/textrangeperformance.html
+END
+commandnewtests.js
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/487/trunk/test/commandnewtests.js
+END
+textrangetests.html
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/732/trunk/test/textrangetests.html
+END
+claridge.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/179/trunk/test/claridge.jpg
+END
+tests.css
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/787/trunk/test/tests.css
+END
+extend.html
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/179/trunk/test/extend.html
+END
+highlightertests.js
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/784/trunk/test/highlightertests.js
+END
+intersectsnode.html
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/179/trunk/test/intersectsnode.html
+END
+html5.html
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/179/trunk/test/html5.html
+END
+ietextnodes.html
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/179/trunk/test/ietextnodes.html
+END
+mutator.html
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/179/trunk/test/mutator.html
+END
+selectionsaverestoretests.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/715/trunk/test/selectionsaverestoretests.html
+END
+serializertests.html
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/784/trunk/test/serializertests.html
+END
+textrangetests.js
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/732/trunk/test/textrangetests.js
+END
+controlrange.html
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/257/trunk/test/controlrange.html
+END
+implementation.js
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/486/trunk/test/implementation.js
+END
+words.html
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/585/trunk/test/words.html
+END
+empty.html
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/179/trunk/test/empty.html
+END
+rangy-1_0-cssclassapplier.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/316/trunk/test/rangy-1_0-cssclassapplier.js
+END
+boldifier.html
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/179/trunk/test/boldifier.html
+END
+textrangetests-old.html
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/732/trunk/test/textrangetests-old.html
+END
+unittests.html
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/179/trunk/test/unittests.html
+END
+saverestore.html
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/211/trunk/test/saverestore.html
+END
+selectionsaverestoretests.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/715/trunk/test/selectionsaverestoretests.js
+END
+textrangelength.html
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/179/trunk/test/textrangelength.html
+END
+ie9controlrange.html
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/309/trunk/test/ie9controlrange.html
+END
+serializertests.js
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/784/trunk/test/serializertests.js
+END
+classappliertests.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/784/trunk/test/classappliertests.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/784/trunk/test/index.html
+END
+testutils.js
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/486/trunk/test/testutils.js
+END
+textrangetests-old.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/732/trunk/test/textrangetests-old.js
+END
+serializer.html
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/254/trunk/test/serializer.html
+END

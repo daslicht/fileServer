@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/527/trunk/currentrelease
+END
+rangy-core.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/527/trunk/currentrelease/rangy-core.js
+END
+rangy-selectionsaverestore.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/527/trunk/currentrelease/rangy-selectionsaverestore.js
+END
+rangy-serializer.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/527/trunk/currentrelease/rangy-serializer.js
+END
+rangy-cssclassapplier.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/527/trunk/currentrelease/rangy-cssclassapplier.js
+END

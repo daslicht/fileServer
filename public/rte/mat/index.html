@@ -1,0 +1,252 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>jquery-textrange</title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <link rel="stylesheet" href="./css/basic.css" />
+    <link rel="stylesheet" href="./css/dropzone.css" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="./jqueryui.min.js"></script>
+    <script src="./dropzone.js"></script>
+
+
+    <script src="http://malsup.github.com/jquery.form.js"></script>
+
+
+
+
+    <style>
+        img {
+            width:100%;
+        }
+       
+        .resizable{
+            float:left;
+            width: 200px;
+        }
+
+        #html-preview{
+            border: solid 1px;
+        }
+
+        .ui-resizable {
+            width:200px;
+            float:left;
+            border: solid 4px;
+
+        }
+
+        .ui-wra
+
+
+    </style>
+    <!--<script src="jquery-textrange.js"></script>-->
+</head>
+<body>
+
+
+<h1>HTML</h1>
+<div id="html-preview" name="html-preview" contenteditable="true">
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
+</div>
+
+
+
+<form action="/"
+      class="dropzone"
+      id="my-awesome-dropzone">
+    <input type="hidden" name='myhidden' value='test'/>
+</form>
+
+<button id='toggle-bold'>BOLD</button>
+<button id='insert-text'>INSERT TEXT</button>
+<button id='insertImage'>insertImage</button>
+<br>
+<br>
+
+
+
+
+
+<form action='/upload' method='POST'>
+    <input type="text" name='myname'/>
+    <input type="hidden" name='myhidden' value='test'/>
+    <input type="submit"/>
+</form>
+
+
+
+
+
+
+<form id="myForm" action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" size="60" name="myfile">
+    <input type="hidden" name='myhidden' value='test'/>
+
+</form>
+<input id='upload' type="button" value="Ajax File Upload">
+<div id="progress">
+    <div id="bar"></div>
+    <div id="percent">0%</div >
+</div>
+<br/>
+
+<div id="message"></div>
+
+
+
+
+
+
+<script>
+    $(document).ready(function () {
+
+
+        function sendFile(file) {
+            $.ajax({
+                type: 'post',
+                url: '/upload' ,  //?name=' + file.fileName,
+                data: $('#myForm').serialize(),
+                success: function () {
+                    // do something
+                },
+                xhrFields: {
+                    // add listener to XMLHTTPRequest object directly for progress (jquery doesn't have this yet)
+                    onprogress: function (progress) {
+                        // calculate upload progress
+                        var percentage = Math.floor((progress.total / progress.totalSize) * 100);
+                        // log upload progress to console
+                        console.log('progress', percentage);
+                        $("#bar").width(percentage+'%');
+                        $("#percent").html(percentage+'%');
+                        if (percentage === 100) {
+                            console.log('DONE!');
+                        }
+                    }
+                },
+                processData: false,
+                contentType: file.type
+            });
+        }
+        $(document).on('click', '#upload',function(){
+            var formData = new FormData($('#myForm')[0]);
+            console.log(formData)
+            sendFile(formData);
+        })
+      //  http://www.sitepoint.com/html5-file-drag-and-drop/
+
+//        $(document).on('click', '#toggle-bold', function () {
+//            console.log('click')
+//            document.execCommand('bold', false, null)
+//        })
+//
+//        $(document).on('click', '#inset-text', function () {
+//            console.log('inset-text')
+//            document.execCommand('insertText', false, '<b>cool</b>')
+//        })
+//
+//        $(document).on('click', '#insertImage', function () {
+//
+//            document.execCommand('insertHTML', false,
+//                    "<img class='resizeable' id='myImg' src='http://placekitten.com/200/300'>");
+//
+//
+//            $(".resizeable").resizable({
+//                aspectRatio: true
+//            }); //just a try here
+//
+//            $('#myImg').parent().css({
+//                'float':'left',
+//                'margin':'15px'
+//            });
+//        })
+//
+//
+//        $(".resizeable").resizable({
+//            aspectRatio: true
+//        })
+//
+//        var myDropzone = new Dropzone("#my-awesome-dropzone", {
+//            url: "/upload"
+//        });
+//        Dropzone.autoDiscover = false;
+//
+//        myDropzone.on("addedfile", function(file) {
+//            console.log('init', file);
+//
+//        });
+//
+//        myDropzone.on("sending", function(file, xhr, formData) {
+//            console.log('sending');
+//
+//            formData.append("myparam", file.size); // Will send the filesize along with the file as POST data.
+//        });
+//
+//        myDropzone.on("complete", function(file) {
+//            console.log('init', file);
+//            //myDropzone.removeFile(file);
+//        });
+
+
+
+//        $("div#my-awesome-dropzone").dropzone({
+//            url: "/file/post",
+//            init: function() {
+//                console.log('init');
+//                this.on("addedfile", function(file) { alert("Added file."); });
+//            }
+//
+//
+//        });
+//
+//        $(document).ready(function()
+//        {
+//
+//            var options = {
+//                beforeSend: function()
+//                {
+//                    $("#progress").show();
+//                    //clear everything
+//                    $("#bar").width('0%');
+//                    $("#message").html("");
+//                    $("#percent").html("0%");
+//                },
+//                uploadProgress: function(event, position, total, percentComplete)
+//                {
+//                    $("#bar").width(percentComplete+'%');
+//                    $("#percent").html(percentComplete+'%');
+//
+//                },
+//                success: function()
+//                {
+//                    $("#bar").width('100%');
+//                    $("#percent").html('100%');
+//
+//                },
+//                complete: function(response)
+//                {
+//                    $("#message").html("<font color='green'>"+response.responseText+"</font>");
+//                },
+//                error: function()
+//                {
+//                    $("#message").html("<font color='red'> ERROR: unable to upload files</font>");
+//
+//                }
+//
+//            };
+//
+//            $("#myForm").ajaxForm(options);
+//
+//        });
+    });
+</script>
+
+
+
+
+
+</body>
+</html>

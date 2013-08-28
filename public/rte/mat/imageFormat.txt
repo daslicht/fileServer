@@ -1,0 +1,38 @@
+/*
+//            $('#myImg').parent().css({
+//                'float':'left',
+//                'margin':'15px'
+//                                                    , //url
+//                                                    '200px',//width
+//                                                    '300px'//height)
+//            range.insertNode( createImageContainer( 'myImage', //id
+//                                                    'http://placekitten.com/200/300'), //url
+//                                                    '200px',//width
+//                                                    '300px'//height
+//            );
+
+
+          //  rangy.getSelection().setSingleRange(range);
+
+
+//            $('#myImg').parent().css({
+//                'float':'left',
+//                'margin':'15px'
+//            });
+/*
+           // var imgStyle = "background:#ffffff url('http://placekitten.com/200/300') no-repeat right top;"
+//            range.insertNode(
+//                createImageContainer( 'myImg','http://localhost:1337/images/cat.jpeg','200px', '300px')
+//            );
+
+            var imgStyle =  "background-color:red;" +
+                            "background:url(http://localhost:1337/images/cat.jpeg);"+
+                            "width:200px;"+
+                            "height:300px"
+
+                //style='background-color:red; background:url(http://localhost:1337/images/cat.jpeg); width:200px; height:300px'
+            //vignette
+         /*   document.execCommand('insertHTML', false,
+                "<div class='resizeable mImage ' id='myImg' style="+imgStyle+"></div>");*/
+
+
